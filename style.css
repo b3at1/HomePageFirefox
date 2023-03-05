@@ -75,6 +75,34 @@ body {
   margin: 20px;
 }
 
+/* .desc supersedes .icon */
+.desc{ 
+  font-family: Hack;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+}
+.desc.ent {
+  color: #FF492F;
+}
+.desc.edu {
+  color: #00CF35;
+}
+.desc.dev {
+  color: #FF8A00;
+}
+.desc.cybr {
+  color: #00B8FF;
+}
+.desc.misc {
+  color: #FF62CE;
+}
 
 .input_box {
   border: none;
@@ -169,7 +197,6 @@ a:hover {
   margin: 0;
   font-weight: bold;
   transition: color .1s, font-weight .1s, font-size 0.1s ease-out;
-  
 }
 
 div.search_box:hover{
@@ -182,11 +209,11 @@ div.bookmarks:hover{
   transition: transform 0.1s;
 }
 
-div.bookmarks.cod a:hover {
+div.bookmarks.edu a:hover {
   color: #00CF35;
 }
 
-div.bookmarks.doc a:hover {
+div.bookmarks.dev a:hover {
   color: #FF8A00;
 }
 
@@ -194,10 +221,10 @@ div.bookmarks.ent a:hover {
   color: #FF492F;
 }
 
-div.bookmarks.mus a:hover {
+div.bookmarks.cybr a:hover {
   color: #00B8FF;
 }
 
-div.bookmarks.art a:hover {
+div.bookmarks.misc a:hover {
   color: #FF62CE;
 }
