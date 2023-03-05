@@ -79,6 +79,7 @@ body {
 .desc{ 
   font-family: Hack;
   font-size: 16px;
+  letter-spacing: 2px; 
   text-align: center;
   padding: 8px;
   color: whitesmoke;
@@ -89,19 +90,19 @@ body {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
 }
 .desc.ent {
-  color: #FF492F;
+  color: #ff0022
 }
 .desc.edu {
-  color: #00CF35;
+  color: #00ca25
 }
 .desc.dev {
-  color: #FF8A00;
+  color: #e98400
 }
 .desc.cybr {
-  color: #00B8FF;
+  color: #00e1ff
 }
 .desc.misc {
-  color: #FF62CE;
+  color: #ff4bde
 }
 
 .input_box {
@@ -210,21 +211,21 @@ div.bookmarks:hover{
 }
 
 div.bookmarks.edu a:hover {
-  color: #00CF35;
+  color: #00ca25;
 }
 
 div.bookmarks.dev a:hover {
-  color: #FF8A00;
+  color: #e98400;
 }
 
 div.bookmarks.ent a:hover {
-  color: #FF492F;
+  color: #ff0022;
 }
 
 div.bookmarks.cybr a:hover {
-  color: #00B8FF;
+  color: #00e1ff;
 }
 
 div.bookmarks.misc a:hover {
-  color: #FF62CE;
+  color: #ff4bde;
 }
