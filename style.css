@@ -93,7 +93,7 @@ body {
   color: #ff0022
 }
 .desc.edu {
-  color: #00ca25
+  color: #22ff00
 }
 .desc.dev {
   color: #e9b300
@@ -211,7 +211,7 @@ div.bookmarks:hover{
 }
 
 div.bookmarks.edu a:hover {
-  color: #00ca25;
+  color: #22ff00;
 }
 
 div.bookmarks.dev a:hover {
