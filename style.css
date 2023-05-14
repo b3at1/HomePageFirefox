@@ -135,7 +135,7 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   border: none;
-  transition-duration: 0.6s;
+  transition-duration: 0.1s;
   position: relative;
   opacity: 60%;
 }
@@ -158,14 +158,15 @@ form {
 }
 
 .engine:hover {
-  filter: saturate(150%) brightness(120%) !important;
   opacity: 100%;
 }
-
+/*
 .input_box:hover {
+  
   filter: saturate(150%) brightness(150%) !important;
-  opacity: 100%;
+  opacity: 100%; 
 }
+*/
 input:focus::placeholder {
   color: transparent;
 }
