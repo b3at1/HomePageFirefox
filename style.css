@@ -81,7 +81,7 @@ body {
 /* .desc supersedes .icon */
 .desc{ 
   font-family: 'Early GameBoy';
-  src: url(/HomePageFirefox/fonts/EarlyGameBoy.ttf) format('truetype');
+  src: url(https://github.com/b3at1/HomePageFirefox/blob/main/fonts/EarlyGameBoy.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
